@@ -1,14 +1,14 @@
 //
-//  XLNavigationViewController.swift
+//  XLMineViewController.swift
 //  108Days-Swift
 //
 //  Created by Shelin on 16/4/8.
-//  Copyright © 2016年 GreatGate. All rights reserved.
+//  Copyright © 2016年 Shelin. All rights reserved.
 //
 
 import UIKit
 
-class XLNavigationViewController: UINavigationController {
+class XLMineViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,7 @@ class XLNavigationViewController: UINavigationController {
         // Dispose of any resources that can be recreated.
     }
     
+
     /*
     // MARK: - Navigation
 

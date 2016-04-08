@@ -19,6 +19,8 @@
 		FD09345C1CB76119005B5C6F /* XLHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09344F1CB76119005B5C6F /* XLHomeViewController.swift */; };
 		FD0934611CB761DE005B5C6F /* XLTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934601CB761DE005B5C6F /* XLTabBarViewController.swift */; };
 		FD0934631CB76203005B5C6F /* XLNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934621CB76203005B5C6F /* XLNavigationViewController.swift */; };
+		FD0934661CB7648F005B5C6F /* XLTabBarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934651CB7648F005B5C6F /* XLTabBarConfig.swift */; };
+		FD0934681CB78256005B5C6F /* XLMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934671CB78256005B5C6F /* XLMineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		FD09344F1CB76119005B5C6F /* XLHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLHomeViewController.swift; sourceTree = "<group>"; };
 		FD0934601CB761DE005B5C6F /* XLTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLTabBarViewController.swift; sourceTree = "<group>"; };
 		FD0934621CB76203005B5C6F /* XLNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLNavigationViewController.swift; sourceTree = "<group>"; };
+		FD0934651CB7648F005B5C6F /* XLTabBarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLTabBarConfig.swift; sourceTree = "<group>"; };
+		FD0934671CB78256005B5C6F /* XLMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLMineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +248,7 @@
 		FD0934501CB76119005B5C6F /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				FD0934641CB76424005B5C6F /* Other */,
 				FD0934511CB76119005B5C6F /* Model */,
 				FD0934521CB76119005B5C6F /* View */,
 				FD0934531CB76119005B5C6F /* ViewController */,
@@ -301,6 +306,7 @@
 		FD0934581CB76119005B5C6F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FD0934671CB78256005B5C6F /* XLMineViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -312,6 +318,14 @@
 				FD0934121CB760DA005B5C6F /* AppDelegate.swift */,
 				FD09341E1CB760DA005B5C6F /* Info.plist */,
 				FD0934161CB760DA005B5C6F /* Main.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FD0934641CB76424005B5C6F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FD0934651CB7648F005B5C6F /* XLTabBarConfig.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -453,6 +467,8 @@
 				FD09345C1CB76119005B5C6F /* XLHomeViewController.swift in Sources */,
 				FD09345B1CB76119005B5C6F /* XLDiscoveryViewController.swift in Sources */,
 				FD0934151CB760DA005B5C6F /* ViewController.swift in Sources */,
+				FD0934681CB78256005B5C6F /* XLMineViewController.swift in Sources */,
+				FD0934661CB7648F005B5C6F /* XLTabBarConfig.swift in Sources */,
 				FD0934611CB761DE005B5C6F /* XLTabBarViewController.swift in Sources */,
 				FD0934131CB760DA005B5C6F /* AppDelegate.swift in Sources */,
 			);
