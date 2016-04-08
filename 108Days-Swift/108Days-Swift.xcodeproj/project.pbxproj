@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FD0934131CB760DA005B5C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934121CB760DA005B5C6F /* AppDelegate.swift */; };
-		FD0934151CB760DA005B5C6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934141CB760DA005B5C6F /* ViewController.swift */; };
-		FD0934181CB760DA005B5C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0934161CB760DA005B5C6F /* Main.storyboard */; };
 		FD09341A1CB760DA005B5C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0934191CB760DA005B5C6F /* Assets.xcassets */; };
 		FD09341D1CB760DA005B5C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD09341B1CB760DA005B5C6F /* LaunchScreen.storyboard */; };
 		FD0934281CB760DA005B5C6F /* _08Days_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934271CB760DA005B5C6F /* _08Days_SwiftTests.swift */; };
@@ -21,6 +19,8 @@
 		FD0934631CB76203005B5C6F /* XLNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934621CB76203005B5C6F /* XLNavigationViewController.swift */; };
 		FD0934661CB7648F005B5C6F /* XLTabBarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934651CB7648F005B5C6F /* XLTabBarConfig.swift */; };
 		FD0934681CB78256005B5C6F /* XLMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934671CB78256005B5C6F /* XLMineViewController.swift */; };
+		FD09346B1CB7BD45005B5C6F /* XLSubjectBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09346A1CB7BD45005B5C6F /* XLSubjectBar.swift */; };
+		FD09346D1CB7BD50005B5C6F /* XLSubjectBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD09346C1CB7BD50005B5C6F /* XLSubjectBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +42,8 @@
 
 /* Begin PBXFileReference section */
 		FD09340F1CB760DA005B5C6F /* 108Days-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "108Days-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD0934121CB760DA005B5C6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
-		FD0934141CB760DA005B5C6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
-		FD0934171CB760DA005B5C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FD0934191CB760DA005B5C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD0934121CB760DA005B5C6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD0934191CB760DA005B5C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		FD09341C1CB760DA005B5C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD09341E1CB760DA005B5C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		FD0934231CB760DA005B5C6F /* 108Days-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "108Days-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +59,8 @@
 		FD0934621CB76203005B5C6F /* XLNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLNavigationViewController.swift; sourceTree = "<group>"; };
 		FD0934651CB7648F005B5C6F /* XLTabBarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLTabBarConfig.swift; sourceTree = "<group>"; };
 		FD0934671CB78256005B5C6F /* XLMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLMineViewController.swift; sourceTree = "<group>"; };
+		FD09346A1CB7BD45005B5C6F /* XLSubjectBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLSubjectBar.swift; sourceTree = "<group>"; };
+		FD09346C1CB7BD50005B5C6F /* XLSubjectBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLSubjectBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				FD0934401CB76119005B5C6F /* Classes */,
-				FD0934191CB760DA005B5C6F /* Assets.xcassets */,
-				FD09341B1CB760DA005B5C6F /* LaunchScreen.storyboard */,
+				FD0934121CB760DA005B5C6F /* AppDelegate.swift */,
+				FD0934691CB7BB6E005B5C6F /* Resources */,
 			);
 			path = "108Days-Swift";
 			sourceTree = "<group>";
@@ -139,11 +139,11 @@
 		FD0934401CB76119005B5C6F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FD0934411CB76119005B5C6F /* Activity */,
-				FD0934461CB76119005B5C6F /* Discovery */,
 				FD09344B1CB76119005B5C6F /* Home */,
-				FD0934501CB76119005B5C6F /* Main */,
+				FD0934461CB76119005B5C6F /* Discovery */,
+				FD0934411CB76119005B5C6F /* Activity */,
 				FD0934551CB76119005B5C6F /* Mine */,
+				FD0934501CB76119005B5C6F /* Main */,
 				FD0934591CB76119005B5C6F /* Other */,
 			);
 			path = Classes;
@@ -233,6 +233,8 @@
 		FD09344D1CB76119005B5C6F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FD09346A1CB7BD45005B5C6F /* XLSubjectBar.swift */,
+				FD09346C1CB7BD50005B5C6F /* XLSubjectBar.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,10 +316,6 @@
 		FD0934591CB76119005B5C6F /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				FD0934141CB760DA005B5C6F /* ViewController.swift */,
-				FD0934121CB760DA005B5C6F /* AppDelegate.swift */,
-				FD09341E1CB760DA005B5C6F /* Info.plist */,
-				FD0934161CB760DA005B5C6F /* Main.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -328,6 +326,17 @@
 				FD0934651CB7648F005B5C6F /* XLTabBarConfig.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		FD0934691CB7BB6E005B5C6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD0934191CB760DA005B5C6F /* Assets.xcassets */,
+				FD09341B1CB760DA005B5C6F /* LaunchScreen.storyboard */,
+				FD09341E1CB760DA005B5C6F /* Info.plist */,
+			);
+			name = Resources;
+			path = Classes/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,8 +445,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD09341D1CB760DA005B5C6F /* LaunchScreen.storyboard in Resources */,
+				FD09346D1CB7BD50005B5C6F /* XLSubjectBar.xib in Resources */,
 				FD09341A1CB760DA005B5C6F /* Assets.xcassets in Resources */,
-				FD0934181CB760DA005B5C6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +475,7 @@
 				FD0934631CB76203005B5C6F /* XLNavigationViewController.swift in Sources */,
 				FD09345C1CB76119005B5C6F /* XLHomeViewController.swift in Sources */,
 				FD09345B1CB76119005B5C6F /* XLDiscoveryViewController.swift in Sources */,
-				FD0934151CB760DA005B5C6F /* ViewController.swift in Sources */,
+				FD09346B1CB7BD45005B5C6F /* XLSubjectBar.swift in Sources */,
 				FD0934681CB78256005B5C6F /* XLMineViewController.swift in Sources */,
 				FD0934661CB7648F005B5C6F /* XLTabBarConfig.swift in Sources */,
 				FD0934611CB761DE005B5C6F /* XLTabBarViewController.swift in Sources */,
@@ -506,21 +515,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FD0934161CB760DA005B5C6F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD0934171CB760DA005B5C6F /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		FD09341B1CB760DA005B5C6F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FD09341C1CB760DA005B5C6F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -611,6 +612,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "108Days-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -623,6 +625,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "108Days-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -698,6 +701,7 @@
 				FD0934391CB760DA005B5C6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD09343A1CB760DA005B5C6F /* Build configuration list for PBXNativeTarget "108Days-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +710,7 @@
 				FD09343C1CB760DA005B5C6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD09343D1CB760DA005B5C6F /* Build configuration list for PBXNativeTarget "108Days-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +719,7 @@
 				FD09343F1CB760DA005B5C6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
