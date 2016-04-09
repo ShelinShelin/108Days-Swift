@@ -23,7 +23,7 @@ class ActivityViewController: XLRootViewController {
     //MARK: - UI
     
     private func customNavBar() {
-        navigationItem.leftBarButtonItem = UIBarButtonItem.createBarButtonItem(nil, action: nil, imageName: "")
+        navigationItem.leftBarButtonItem = nil
         navigationItem.rightBarButtonItem = UIBarButtonItem.createBarButtonItem(self, action: Selector("sortAction"), imageName: "active_nav_right_btn")
     }
     

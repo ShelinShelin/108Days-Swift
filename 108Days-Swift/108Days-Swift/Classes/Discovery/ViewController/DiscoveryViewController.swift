@@ -23,7 +23,7 @@ class DiscoveryViewController: XLRootViewController {
     //MARK: - UI
     
     private func customNavBar() {
-        navigationItem.leftBarButtonItem = UIBarButtonItem.createBarButtonItem(nil, action: nil, imageName: "")
+        navigationItem.leftBarButtonItem = nil
     }
     
     //MARK: - btn action
