@@ -8,19 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		FD0934131CB760DA005B5C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934121CB760DA005B5C6F /* AppDelegate.swift */; };
-		FD09341A1CB760DA005B5C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0934191CB760DA005B5C6F /* Assets.xcassets */; };
 		FD09341D1CB760DA005B5C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD09341B1CB760DA005B5C6F /* LaunchScreen.storyboard */; };
 		FD0934281CB760DA005B5C6F /* _08Days_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934271CB760DA005B5C6F /* _08Days_SwiftTests.swift */; };
 		FD0934331CB760DA005B5C6F /* _08Days_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934321CB760DA005B5C6F /* _08Days_SwiftUITests.swift */; };
-		FD09345A1CB76119005B5C6F /* XLActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934451CB76119005B5C6F /* XLActivityViewController.swift */; };
-		FD09345B1CB76119005B5C6F /* XLDiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09344A1CB76119005B5C6F /* XLDiscoveryViewController.swift */; };
-		FD09345C1CB76119005B5C6F /* XLHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09344F1CB76119005B5C6F /* XLHomeViewController.swift */; };
+		FD09345A1CB76119005B5C6F /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934451CB76119005B5C6F /* ActivityViewController.swift */; };
+		FD09345B1CB76119005B5C6F /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09344A1CB76119005B5C6F /* DiscoveryViewController.swift */; };
+		FD09345C1CB76119005B5C6F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09344F1CB76119005B5C6F /* HomeViewController.swift */; };
 		FD0934611CB761DE005B5C6F /* XLTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934601CB761DE005B5C6F /* XLTabBarViewController.swift */; };
 		FD0934631CB76203005B5C6F /* XLNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934621CB76203005B5C6F /* XLNavigationViewController.swift */; };
-		FD0934661CB7648F005B5C6F /* XLTabBarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934651CB7648F005B5C6F /* XLTabBarConfig.swift */; };
-		FD0934681CB78256005B5C6F /* XLMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934671CB78256005B5C6F /* XLMineViewController.swift */; };
-		FD09346B1CB7BD45005B5C6F /* XLSubjectBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09346A1CB7BD45005B5C6F /* XLSubjectBar.swift */; };
-		FD09346D1CB7BD50005B5C6F /* XLSubjectBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD09346C1CB7BD50005B5C6F /* XLSubjectBar.xib */; };
+		FD0934661CB7648F005B5C6F /* TabBarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934651CB7648F005B5C6F /* TabBarConfig.swift */; };
+		FD0934681CB78256005B5C6F /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0934671CB78256005B5C6F /* MineViewController.swift */; };
+		FD09346B1CB7BD45005B5C6F /* SubjectBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09346A1CB7BD45005B5C6F /* SubjectBar.swift */; };
+		FD09346D1CB7BD50005B5C6F /* SubjectBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD09346C1CB7BD50005B5C6F /* SubjectBar.xib */; };
+		FD93F30A1CB8A58F00074FDE /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD93F3091CB8A58F00074FDE /* UIBarButtonItem+Extension.swift */; };
+		FD93F30C1CB8AB5B00074FDE /* HomeLeftBarBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD93F30B1CB8AB5B00074FDE /* HomeLeftBarBtn.swift */; };
+		FD93F30E1CB8AF8700074FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD93F30D1CB8AF8700074FDE /* Assets.xcassets */; };
+		FD93F3101CB8AF8F00074FDE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD93F30F1CB8AF8F00074FDE /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,24 +46,26 @@
 /* Begin PBXFileReference section */
 		FD09340F1CB760DA005B5C6F /* 108Days-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "108Days-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0934121CB760DA005B5C6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD0934191CB760DA005B5C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		FD09341C1CB760DA005B5C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FD09341E1CB760DA005B5C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		FD0934231CB760DA005B5C6F /* 108Days-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "108Days-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0934271CB760DA005B5C6F /* _08Days_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _08Days_SwiftTests.swift; sourceTree = "<group>"; };
 		FD0934291CB760DA005B5C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD09342E1CB760DA005B5C6F /* 108Days-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "108Days-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0934321CB760DA005B5C6F /* _08Days_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _08Days_SwiftUITests.swift; sourceTree = "<group>"; };
 		FD0934341CB760DA005B5C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD0934451CB76119005B5C6F /* XLActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLActivityViewController.swift; sourceTree = "<group>"; };
-		FD09344A1CB76119005B5C6F /* XLDiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLDiscoveryViewController.swift; sourceTree = "<group>"; };
-		FD09344F1CB76119005B5C6F /* XLHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLHomeViewController.swift; sourceTree = "<group>"; };
+		FD0934451CB76119005B5C6F /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		FD09344A1CB76119005B5C6F /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		FD09344F1CB76119005B5C6F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FD0934601CB761DE005B5C6F /* XLTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLTabBarViewController.swift; sourceTree = "<group>"; };
 		FD0934621CB76203005B5C6F /* XLNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLNavigationViewController.swift; sourceTree = "<group>"; };
-		FD0934651CB7648F005B5C6F /* XLTabBarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLTabBarConfig.swift; sourceTree = "<group>"; };
-		FD0934671CB78256005B5C6F /* XLMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLMineViewController.swift; sourceTree = "<group>"; };
-		FD09346A1CB7BD45005B5C6F /* XLSubjectBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLSubjectBar.swift; sourceTree = "<group>"; };
-		FD09346C1CB7BD50005B5C6F /* XLSubjectBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLSubjectBar.xib; sourceTree = "<group>"; };
+		FD0934651CB7648F005B5C6F /* TabBarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarConfig.swift; sourceTree = "<group>"; };
+		FD0934671CB78256005B5C6F /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		FD09346A1CB7BD45005B5C6F /* SubjectBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectBar.swift; sourceTree = "<group>"; };
+		FD09346C1CB7BD50005B5C6F /* SubjectBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubjectBar.xib; sourceTree = "<group>"; };
+		FD93F3091CB8A58F00074FDE /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		FD93F30B1CB8AB5B00074FDE /* HomeLeftBarBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLeftBarBtn.swift; sourceTree = "<group>"; };
+		FD93F30D1CB8AF8700074FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "108Days-Swift/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		FD93F30F1CB8AF8F00074FDE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "108Days-Swift/Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +144,7 @@
 		FD0934401CB76119005B5C6F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FD93F3061CB8A50A00074FDE /* Common */,
 				FD09344B1CB76119005B5C6F /* Home */,
 				FD0934461CB76119005B5C6F /* Discovery */,
 				FD0934411CB76119005B5C6F /* Activity */,
@@ -176,7 +182,7 @@
 		FD0934441CB76119005B5C6F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FD0934451CB76119005B5C6F /* XLActivityViewController.swift */,
+				FD0934451CB76119005B5C6F /* ActivityViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -208,7 +214,7 @@
 		FD0934491CB76119005B5C6F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FD09344A1CB76119005B5C6F /* XLDiscoveryViewController.swift */,
+				FD09344A1CB76119005B5C6F /* DiscoveryViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -233,8 +239,9 @@
 		FD09344D1CB76119005B5C6F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FD09346A1CB7BD45005B5C6F /* XLSubjectBar.swift */,
-				FD09346C1CB7BD50005B5C6F /* XLSubjectBar.xib */,
+				FD09346A1CB7BD45005B5C6F /* SubjectBar.swift */,
+				FD09346C1CB7BD50005B5C6F /* SubjectBar.xib */,
+				FD93F30B1CB8AB5B00074FDE /* HomeLeftBarBtn.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -242,7 +249,7 @@
 		FD09344E1CB76119005B5C6F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FD09344F1CB76119005B5C6F /* XLHomeViewController.swift */,
+				FD09344F1CB76119005B5C6F /* HomeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -308,7 +315,7 @@
 		FD0934581CB76119005B5C6F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FD0934671CB78256005B5C6F /* XLMineViewController.swift */,
+				FD0934671CB78256005B5C6F /* MineViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -323,7 +330,7 @@
 		FD0934641CB76424005B5C6F /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				FD0934651CB7648F005B5C6F /* XLTabBarConfig.swift */,
+				FD0934651CB7648F005B5C6F /* TabBarConfig.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -331,12 +338,36 @@
 		FD0934691CB7BB6E005B5C6F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FD0934191CB760DA005B5C6F /* Assets.xcassets */,
+				FD93F30D1CB8AF8700074FDE /* Assets.xcassets */,
 				FD09341B1CB760DA005B5C6F /* LaunchScreen.storyboard */,
-				FD09341E1CB760DA005B5C6F /* Info.plist */,
+				FD93F30F1CB8AF8F00074FDE /* Info.plist */,
 			);
 			name = Resources;
 			path = Classes/Resources;
+			sourceTree = "<group>";
+		};
+		FD93F3061CB8A50A00074FDE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FD93F3071CB8A50A00074FDE /* Extension */,
+				FD93F3081CB8A50A00074FDE /* Tools */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FD93F3071CB8A50A00074FDE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FD93F3091CB8A58F00074FDE /* UIBarButtonItem+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FD93F3081CB8A50A00074FDE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,9 +475,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD93F3101CB8AF8F00074FDE /* Info.plist in Resources */,
 				FD09341D1CB760DA005B5C6F /* LaunchScreen.storyboard in Resources */,
-				FD09346D1CB7BD50005B5C6F /* XLSubjectBar.xib in Resources */,
-				FD09341A1CB760DA005B5C6F /* Assets.xcassets in Resources */,
+				FD93F30E1CB8AF8700074FDE /* Assets.xcassets in Resources */,
+				FD09346D1CB7BD50005B5C6F /* SubjectBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,13 +503,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD09345A1CB76119005B5C6F /* XLActivityViewController.swift in Sources */,
+				FD09345A1CB76119005B5C6F /* ActivityViewController.swift in Sources */,
 				FD0934631CB76203005B5C6F /* XLNavigationViewController.swift in Sources */,
-				FD09345C1CB76119005B5C6F /* XLHomeViewController.swift in Sources */,
-				FD09345B1CB76119005B5C6F /* XLDiscoveryViewController.swift in Sources */,
-				FD09346B1CB7BD45005B5C6F /* XLSubjectBar.swift in Sources */,
-				FD0934681CB78256005B5C6F /* XLMineViewController.swift in Sources */,
-				FD0934661CB7648F005B5C6F /* XLTabBarConfig.swift in Sources */,
+				FD93F30A1CB8A58F00074FDE /* UIBarButtonItem+Extension.swift in Sources */,
+				FD09345C1CB76119005B5C6F /* HomeViewController.swift in Sources */,
+				FD09345B1CB76119005B5C6F /* DiscoveryViewController.swift in Sources */,
+				FD09346B1CB7BD45005B5C6F /* SubjectBar.swift in Sources */,
+				FD0934681CB78256005B5C6F /* MineViewController.swift in Sources */,
+				FD0934661CB7648F005B5C6F /* TabBarConfig.swift in Sources */,
+				FD93F30C1CB8AB5B00074FDE /* HomeLeftBarBtn.swift in Sources */,
 				FD0934611CB761DE005B5C6F /* XLTabBarViewController.swift in Sources */,
 				FD0934131CB760DA005B5C6F /* AppDelegate.swift in Sources */,
 			);

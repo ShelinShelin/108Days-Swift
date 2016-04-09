@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     private func initializeTabBar() {
-        let config = XLTabBarConfig()
+        let config = TabBarConfig()
         window?.rootViewController = config.tabBarController
     }
 
