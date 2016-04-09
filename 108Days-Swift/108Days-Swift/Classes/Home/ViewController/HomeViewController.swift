@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: XLRootViewController {
     
     //MARK: - life cyle
     
@@ -30,5 +30,7 @@ class HomeViewController: UIViewController {
     
     func searchAction() {
         print(__FUNCTION__)
+        let searchVC = SearchViewController()
+        navigationController?.pushViewController(searchVC, animated: true)
     }
 }

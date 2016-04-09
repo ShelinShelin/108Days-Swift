@@ -24,6 +24,8 @@
 		FD93F30C1CB8AB5B00074FDE /* HomeLeftBarBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD93F30B1CB8AB5B00074FDE /* HomeLeftBarBtn.swift */; };
 		FD93F30E1CB8AF8700074FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD93F30D1CB8AF8700074FDE /* Assets.xcassets */; };
 		FD93F3101CB8AF8F00074FDE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD93F30F1CB8AF8F00074FDE /* Info.plist */; };
+		FD98B2B71CB8BC7800DE59FD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD98B2B61CB8BC7800DE59FD /* SearchViewController.swift */; };
+		FD98B2B91CB8BEB800DE59FD /* XLRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD98B2B81CB8BEB800DE59FD /* XLRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		FD93F30B1CB8AB5B00074FDE /* HomeLeftBarBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLeftBarBtn.swift; sourceTree = "<group>"; };
 		FD93F30D1CB8AF8700074FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "108Days-Swift/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		FD93F30F1CB8AF8F00074FDE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "108Days-Swift/Info.plist"; sourceTree = SOURCE_ROOT; };
+		FD98B2B61CB8BC7800DE59FD /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FD98B2B81CB8BEB800DE59FD /* XLRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				FD09344F1CB76119005B5C6F /* HomeViewController.swift */,
+				FD98B2B61CB8BC7800DE59FD /* SearchViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			children = (
 				FD0934601CB761DE005B5C6F /* XLTabBarViewController.swift */,
 				FD0934621CB76203005B5C6F /* XLNavigationViewController.swift */,
+				FD98B2B81CB8BEB800DE59FD /* XLRootViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -509,6 +515,8 @@
 				FD09345C1CB76119005B5C6F /* HomeViewController.swift in Sources */,
 				FD09345B1CB76119005B5C6F /* DiscoveryViewController.swift in Sources */,
 				FD09346B1CB7BD45005B5C6F /* SubjectBar.swift in Sources */,
+				FD98B2B91CB8BEB800DE59FD /* XLRootViewController.swift in Sources */,
+				FD98B2B71CB8BC7800DE59FD /* SearchViewController.swift in Sources */,
 				FD0934681CB78256005B5C6F /* MineViewController.swift in Sources */,
 				FD0934661CB7648F005B5C6F /* TabBarConfig.swift in Sources */,
 				FD93F30C1CB8AB5B00074FDE /* HomeLeftBarBtn.swift in Sources */,

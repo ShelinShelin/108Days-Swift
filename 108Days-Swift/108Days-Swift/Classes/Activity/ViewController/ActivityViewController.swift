@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ActivityViewController: UIViewController {
+class ActivityViewController: XLRootViewController {
 
     //MARK: - life cyle
     
@@ -23,6 +23,7 @@ class ActivityViewController: UIViewController {
     //MARK: - UI
     
     private func customNavBar() {
+        navigationItem.leftBarButtonItem = UIBarButtonItem.createBarButtonItem(nil, action: nil, imageName: "")
         navigationItem.rightBarButtonItem = UIBarButtonItem.createBarButtonItem(self, action: Selector("sortAction"), imageName: "active_nav_right_btn")
     }
     

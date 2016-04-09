@@ -8,6 +8,23 @@
 
 import UIKit
 
-class DiscoveryViewController: UIViewController {
-
+class DiscoveryViewController: XLRootViewController {
+    
+    //MARK: - life cyle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        customNavBar()
+        
+        
+    }
+    
+    //MARK: - UI
+    
+    private func customNavBar() {
+        navigationItem.leftBarButtonItem = UIBarButtonItem.createBarButtonItem(nil, action: nil, imageName: "")
+    }
+    
+    //MARK: - btn action
 }
