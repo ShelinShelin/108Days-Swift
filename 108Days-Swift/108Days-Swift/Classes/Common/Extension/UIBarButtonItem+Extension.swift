@@ -17,9 +17,14 @@ extension UIBarButtonItem {
         button.sizeToFit()
         return UIBarButtonItem(customView: button)
     }
-    /*
-    func barButtonItem(WithTarget: AnyObject?, action: String!, title: String!, imageName: String!) -> UIBarButtonItem {
+    
+    class func createBarButtonItem(target: AnyObject?, action: Selector, title: String!, imageName: String!) -> UIBarButtonItem {
         
-        
-    }*/
+        let button = HomeLeftBarBtn()
+        button.setImage(UIImage(named: imageName), forState: UIControlState.Normal)
+        button.setTitle(title, forState: UIControlState.Normal)
+        button.addTarget(target, action: action, forControlEvents: UIControlEvents.TouchUpInside)
+        button.sizeToFit()
+        return UIBarButtonItem(customView: button)
+    }
 }

@@ -26,6 +26,10 @@
 		FD93F3101CB8AF8F00074FDE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD93F30F1CB8AF8F00074FDE /* Info.plist */; };
 		FD98B2B71CB8BC7800DE59FD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD98B2B61CB8BC7800DE59FD /* SearchViewController.swift */; };
 		FD98B2B91CB8BEB800DE59FD /* XLRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD98B2B81CB8BEB800DE59FD /* XLRootViewController.swift */; };
+		FD98B2BB1CBA2BA200DE59FD /* CityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD98B2BA1CBA2BA200DE59FD /* CityListViewController.swift */; };
+		FD98B2BD1CBA2C8900DE59FD /* MySearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD98B2BC1CBA2C8900DE59FD /* MySearchBar.swift */; };
+		FD98B2C01CBA2EF400DE59FD /* HomeTourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD98B2BE1CBA2EF400DE59FD /* HomeTourCell.swift */; };
+		FD98B2C11CBA2EF400DE59FD /* HomeTourCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD98B2BF1CBA2EF400DE59FD /* HomeTourCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,10 @@
 		FD93F30F1CB8AF8F00074FDE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "108Days-Swift/Info.plist"; sourceTree = SOURCE_ROOT; };
 		FD98B2B61CB8BC7800DE59FD /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FD98B2B81CB8BEB800DE59FD /* XLRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLRootViewController.swift; sourceTree = "<group>"; };
+		FD98B2BA1CBA2BA200DE59FD /* CityListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityListViewController.swift; sourceTree = "<group>"; };
+		FD98B2BC1CBA2C8900DE59FD /* MySearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySearchBar.swift; sourceTree = "<group>"; };
+		FD98B2BE1CBA2EF400DE59FD /* HomeTourCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTourCell.swift; sourceTree = "<group>"; };
+		FD98B2BF1CBA2EF400DE59FD /* HomeTourCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTourCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +254,9 @@
 				FD09346A1CB7BD45005B5C6F /* SubjectBar.swift */,
 				FD09346C1CB7BD50005B5C6F /* SubjectBar.xib */,
 				FD93F30B1CB8AB5B00074FDE /* HomeLeftBarBtn.swift */,
+				FD98B2BC1CBA2C8900DE59FD /* MySearchBar.swift */,
+				FD98B2BE1CBA2EF400DE59FD /* HomeTourCell.swift */,
+				FD98B2BF1CBA2EF400DE59FD /* HomeTourCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -255,6 +266,7 @@
 			children = (
 				FD09344F1CB76119005B5C6F /* HomeViewController.swift */,
 				FD98B2B61CB8BC7800DE59FD /* SearchViewController.swift */,
+				FD98B2BA1CBA2BA200DE59FD /* CityListViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -438,7 +450,7 @@
 		FD0934071CB760DA005B5C6F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = XL;
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Shelin;
@@ -481,6 +493,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD98B2C11CBA2EF400DE59FD /* HomeTourCell.xib in Resources */,
 				FD93F3101CB8AF8F00074FDE /* Info.plist in Resources */,
 				FD09341D1CB760DA005B5C6F /* LaunchScreen.storyboard in Resources */,
 				FD93F30E1CB8AF8700074FDE /* Assets.xcassets in Resources */,
@@ -509,13 +522,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD98B2C01CBA2EF400DE59FD /* HomeTourCell.swift in Sources */,
 				FD09345A1CB76119005B5C6F /* ActivityViewController.swift in Sources */,
 				FD0934631CB76203005B5C6F /* XLNavigationViewController.swift in Sources */,
 				FD93F30A1CB8A58F00074FDE /* UIBarButtonItem+Extension.swift in Sources */,
+				FD98B2BD1CBA2C8900DE59FD /* MySearchBar.swift in Sources */,
 				FD09345C1CB76119005B5C6F /* HomeViewController.swift in Sources */,
 				FD09345B1CB76119005B5C6F /* DiscoveryViewController.swift in Sources */,
 				FD09346B1CB7BD45005B5C6F /* SubjectBar.swift in Sources */,
 				FD98B2B91CB8BEB800DE59FD /* XLRootViewController.swift in Sources */,
+				FD98B2BB1CBA2BA200DE59FD /* CityListViewController.swift in Sources */,
 				FD98B2B71CB8BC7800DE59FD /* SearchViewController.swift in Sources */,
 				FD0934681CB78256005B5C6F /* MineViewController.swift in Sources */,
 				FD0934661CB7648F005B5C6F /* TabBarConfig.swift in Sources */,

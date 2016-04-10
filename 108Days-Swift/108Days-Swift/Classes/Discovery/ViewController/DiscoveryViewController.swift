@@ -16,8 +16,6 @@ class DiscoveryViewController: XLRootViewController {
         super.viewDidLoad()
         
         customNavBar()
-        
-        
     }
     
     //MARK: - UI

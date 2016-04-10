@@ -23,6 +23,7 @@ class HomeViewController: XLRootViewController {
     //MARK: - UI
     
     private func customNavBar() {
+        navigationItem.leftBarButtonItem = UIBarButtonItem.createBarButtonItem(self, action: Selector("selectCityAction"), title: "北京", imageName: "home_city_location_img")
         navigationItem.rightBarButtonItem = UIBarButtonItem.createBarButtonItem(self, action: Selector("searchAction"), imageName: "home_search_img")
     }
     
@@ -32,5 +33,11 @@ class HomeViewController: XLRootViewController {
         print(__FUNCTION__)
         let searchVC = SearchViewController()
         navigationController?.pushViewController(searchVC, animated: true)
+    }
+    
+    func selectCityAction() {
+        print(__FUNCTION__)
+        let cityListVC = CityListViewController()
+        navigationController?.pushViewController(cityListVC, animated: true)
     }
 }
